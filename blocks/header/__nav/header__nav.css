@@ -1,0 +1,10 @@
+.header__nav {
+  width: 100%;
+  height: 45px;
+  background-color: #7CABFF;
+  box-sizing: border-box;
+  padding: 0 calc((100% - 1000px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

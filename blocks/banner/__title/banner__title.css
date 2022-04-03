@@ -1,0 +1,12 @@
+.banner__title {
+  width: 310px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #7CABFF; 
+  padding-left: 30px;
+  padding-top: 10px;
+}

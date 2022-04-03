@@ -1,0 +1,12 @@
+.page {
+  width: 100%;
+  font-family: 'Montserrat', 'Arial', 'sans-serif';
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

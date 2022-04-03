@@ -1,0 +1,13 @@
+.banner__element {
+  position: relative;
+  height: 441px;
+  width: 662px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: block;
+  margin-right: 20px;
+}
+
+.banner__element:last-child {
+  margin-right: 0;
+}
