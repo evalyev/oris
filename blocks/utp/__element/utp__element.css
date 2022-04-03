@@ -1,0 +1,10 @@
+.utp__element {
+  width: calc(100% / 2 - 60px);
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.utp__element:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}

@@ -30,3 +30,14 @@
 @import url(../blocks/banner/__controls/banner__controls.css);
 @import url(../blocks/banner/__control/banner__control.css);
 @import url(../blocks/banner/__control/_active/banner__control_active.css);
+
+@import url(../blocks/utp/utp.css);
+@import url(../blocks/utp/__element/utp__element.css);
+@import url(../blocks/utp/__img-cont/utp__img-cont.css);
+@import url(../blocks/utp/__logo/utp__logo.css);
+@import url(../blocks/utp/__info/utp__info.css);
+@import url(../blocks/utp/__info-title/utp__info-title.css);
+@import url(../blocks/utp/__info-subtitle/utp__info-subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__top/footer__top.css);

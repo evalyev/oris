@@ -3,6 +3,8 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1400px;
   overflow: hidden;
   padding-top: 50px;
+  padding-bottom: 40px;
 }

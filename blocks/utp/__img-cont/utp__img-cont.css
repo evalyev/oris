@@ -1,0 +1,10 @@
+.utp__img-cont {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFDA87;
+  border-radius: 50%;
+  margin-right: 33px;
+}

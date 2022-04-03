@@ -1,0 +1,8 @@
+.footer__top {
+  width: 100%;
+  padding: 55px calc((100% - 1000px) / 2);
+  background-color: #7CABFF;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.utp {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: solid 1px #7CABFF;
+  border-bottom: solid 1px #7CABFF;
+  padding: 35px calc((100% - 960px) / 2);
+  box-sizing: border-box;
+}
