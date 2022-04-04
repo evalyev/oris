@@ -1,0 +1,10 @@
+.doctors__element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 48px;
+}
+
+.doctors__element:last-child {
+  margin-right: 0;
+}

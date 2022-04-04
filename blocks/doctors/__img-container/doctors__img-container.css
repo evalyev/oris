@@ -1,0 +1,16 @@
+.doctors__img-container {
+  width: 261px;
+  height: 261px;
+  border-radius: 50%;
+  background-color: #DCE9FF;
+  position: relative;
+  margin-top: 61px;
+  filter: blur(4px);
+}
+
+.doctors__element_active .doctors__img-container {
+  width: 381px;
+  height: 381px;
+  margin-top: 0;
+  filter: blur(0);
+}

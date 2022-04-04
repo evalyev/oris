@@ -1,0 +1,6 @@
+.doctors {
+  width: 100%;
+  padding: 78px calc((100% - 1000px) / 2) 45px;
+  box-sizing: border-box;
+  display: flex;
+}

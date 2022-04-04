@@ -1,4 +1,12 @@
 .header__nav-ico {
   width: 9px;
+  height: 7px;
   margin-right: 5px;
+  background-image: url(../../../images/services.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__nav-link:hover .header__nav-ico {
+  background-image: url(../../../images/services_active.svg);
 }

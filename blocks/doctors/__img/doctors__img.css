@@ -1,0 +1,14 @@
+.doctors__img {
+  position: absolute;
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
+  top: 36px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.doctors__element_active .doctors__img {
+  height: 382px;
+  top: 19px;
+}

@@ -39,6 +39,19 @@
 @import url(../blocks/utp/__info-title/utp__info-title.css);
 @import url(../blocks/utp/__info-subtitle/utp__info-subtitle.css);
 
+@import url(../blocks/doctors/doctors.css);
+@import url(../blocks/doctors/__element/doctors__element.css);
+@import url(../blocks/doctors/__element/_active/doctors__element_active.css);
+@import url(../blocks/doctors/__img-container/doctors__img-container.css);
+@import url(../blocks/doctors/__img/doctors__img.css);
+@import url(../blocks/doctors/__info/doctors__info.css);
+@import url(../blocks/doctors/__title/doctors__title.css);
+@import url(../blocks/doctors/__subtitle/doctors__subtitle.css);
+@import url(../blocks/doctors/__two-column/doctors__two-column.css);
+@import url(../blocks/doctors/__numbers/doctors__numbers.css);
+@import url(../blocks/doctors/__column/doctors__column.css);
+@import url(../blocks/doctors/__numbers-contin/doctors__numbers-contin.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__column/footer__column.css);
