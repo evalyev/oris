@@ -1,0 +1,26 @@
+.header__service-link {
+  width: calc((1000px - 5px * 3) / 4);
+  height: 75px;
+  background-color: #7CABFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header__services li:hover .header__service-link {
+  cursor: pointer;
+  background-color: #FFDA87;
+  color: #A17000;
+}
+
+.header__services li:nth-child(4n) .header__service-link {
+  margin-right: 0;
+}
