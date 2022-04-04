@@ -1,0 +1,8 @@
+.footer__soc-nets-link {
+  text-decoration: none;
+  margin-right: 13px;
+}
+
+.footer__soc-nets li:last-child .footer__soc-nets-link {
+  margin-right: 0;
+}

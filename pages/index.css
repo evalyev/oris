@@ -41,3 +41,24 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_type/footer__column_type_space-between.css);
+@import url(../blocks/footer/__logo-cont/footer__logo-cont.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__two-column/footer__two-column.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
+@import url(../blocks/footer/__ico/footer__ico.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__title/_type/footer__title_type_right.css);
+@import url(../blocks/footer/__two-column/_type/footer__two-column_type_contact.css);
+@import url(../blocks/footer/__info-link/_type/footer__info-link_type_contact.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__soc-nets/footer__soc-nets.css);
+@import url(../blocks/footer/__soc-nets-link/footer__soc-nets-link.css);
+@import url(../blocks/footer/__soc-nets-ico/footer__soc-nets-ico.css);
+@import url(../blocks/footer/__dev-copy/footer__dev-copy.css);

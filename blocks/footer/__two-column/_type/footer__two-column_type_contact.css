@@ -1,0 +1,8 @@
+.footer__two-column_type_contact {
+  margin-bottom: 23px;
+  align-items: center;
+}
+
+.footer__two-column_type_contact:last-child {
+  margin-bottom: 0;
+}

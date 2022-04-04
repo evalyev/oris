@@ -1,5 +1,6 @@
-.page__link {
+.footer__soc-nets {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
