@@ -10,7 +10,7 @@ function nav() {
       paddings -= item.clientWidth;
     })
 
-    paddings = paddings / (navList.length * 2 + 2)
+    paddings = paddings / (navList.length * 2 + 3)
 
     navList.forEach(item => {
       item.style.paddingLeft = paddings + 'px';
