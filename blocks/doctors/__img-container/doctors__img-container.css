@@ -8,9 +8,17 @@
   filter: blur(4px);
 }
 
+.doctors__img-container:hover {
+  cursor: pointer;
+}
+
 .doctors__element_active .doctors__img-container {
   width: 381px;
   height: 381px;
   margin-top: 0;
   filter: blur(0);
+}
+
+.doctors__element_active .doctors__img-container:hover {
+  cursor: default;
 }

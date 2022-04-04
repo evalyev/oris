@@ -75,3 +75,8 @@
 @import url(../blocks/footer/__soc-nets-link/footer__soc-nets-link.css);
 @import url(../blocks/footer/__soc-nets-ico/footer__soc-nets-ico.css);
 @import url(../blocks/footer/__dev-copy/footer__dev-copy.css);
+
+@import url(../blocks/cookie/cookie.css);
+@import url(../blocks/cookie/_active/cookie_active.css);
+@import url(../blocks/cookie/__paragraph/cookie__paragraph.css);
+@import url(../blocks/cookie/__btn-submit/cookie__btn-submit.css);

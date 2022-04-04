@@ -1,0 +1,22 @@
+.cookie__btn-submit {
+  width: 208px;
+  height: 38px;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #7CABFF;
+  border-radius: 12px;
+}
+
+.cookie__btn-submit:hover {
+  cursor: pointer;
+  background-color: #FFDA87;
+  color: #A17000;
+}
