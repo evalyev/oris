@@ -1,0 +1,9 @@
+.info__banner {
+  width: 100%;
+  position: relative;
+  height: 184px;
+  display: flex;
+  margin-bottom: 67px;
+  border-radius: 30px;
+  overflow: hidden;
+}

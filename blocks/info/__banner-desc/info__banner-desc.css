@@ -1,0 +1,9 @@
+.info__banner-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 52px;
+  box-sizing: border-box;
+  width: 421px;
+  background: linear-gradient(90.06deg, #FFFFFF 4.13%, rgba(255, 255, 255, 0) 259.59%);
+}

@@ -1,0 +1,7 @@
+.staff {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 67px calc((100% - 1000px) / 2) 0;
+  display: flex;
+  flex-wrap: wrap;
+}

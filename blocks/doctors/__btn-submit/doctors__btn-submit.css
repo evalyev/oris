@@ -1,0 +1,21 @@
+.doctors__btn-submit {
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background-color: #7CABFF;
+  border-radius: 7px;
+  width: 174px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doctors__btn-submit:hover {
+  cursor: pointer;
+}

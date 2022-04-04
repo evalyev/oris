@@ -1,0 +1,11 @@
+.staff__element {
+  width: calc((100% - 76px) / 2);
+  margin-right: 76px;
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.staff__element:nth-child(2n) {
+  margin-right: 0;
+}

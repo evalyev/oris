@@ -1,0 +1,12 @@
+.info__subtitle {
+  margin: 34px 0 0 0;
+  padding: 0;
+  width: 420px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  color: #7CABFF;
+  text-align: center;
+}

@@ -6,3 +6,7 @@
 .doctors__element_active .doctors__info {
   display: block;
 }
+
+.staff .doctors__info {
+  display: block;
+}
