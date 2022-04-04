@@ -1,0 +1,22 @@
+.entry__input-text {
+  height: 43px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #959595;
+  background-color: #DCE9FF;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.entry__input-text::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #959595;
+}

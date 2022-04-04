@@ -79,6 +79,18 @@
 @import url(../blocks/footer/__soc-nets-ico/footer__soc-nets-ico.css);
 @import url(../blocks/footer/__dev-copy/footer__dev-copy.css);
 
+@import url(../blocks/entry/entry.css);
+@import url(../blocks/entry/_active/entry_active.css);
+@import url(../blocks/entry/__container/entry__container.css);
+@import url(../blocks/entry/__img/entry__img.css);
+@import url(../blocks/entry/__info/entry__info.css);
+@import url(../blocks/entry/__title/entry__title.css);
+@import url(../blocks/entry/__form/entry__form.css);
+@import url(../blocks/entry/__input-text/entry__input-text.css);
+@import url(../blocks/entry/__input-date/entry__input-date.css);
+@import url(../blocks/entry/__btn-submit/entry__btn-submit.css);
+@import url(../blocks/entry/__btn-close/entry__btn-close.css);
+
 @import url(../blocks/cookie/cookie.css);
 @import url(../blocks/cookie/_active/cookie_active.css);
 @import url(../blocks/cookie/__paragraph/cookie__paragraph.css);

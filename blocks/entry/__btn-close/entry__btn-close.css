@@ -1,0 +1,15 @@
+.entry__btn-close {
+  border: none;
+  outline: none;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  background-color: #7CABFF;
+  border-radius: 50%;
+  background-image: url(../../../images/entry__close.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px;
+  top: -20px;
+  right: -20px;
+}

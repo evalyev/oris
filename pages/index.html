@@ -3,6 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap-datetimepicker.min.css" />
+
   <link rel="stylesheet" href="./index.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная</title>
@@ -550,6 +554,27 @@
       </section>
     </footer>
 
+    <section class="entry">
+      <div class="entry__container">
+        <img class="entry__img" src="../images/entry__img.jpg" alt="Фото с пишущей ручкой">
+        <div class="entry__info">
+          <h2 class="entry__title">
+            Запишись на прием за пару кликов
+          </h2>
+          <form class="entry__form" name="entry-form">
+            <input class="entry__input-text" type="text" name="entry-name" placeholder="Как Вас зовут?*" required>
+            <input class="entry__input-text" type="tel" name="entry-tel" placeholder="Номер телефона*" required>
+            <input class="entry__input-date" type="text" name="entry-date" placeholder="Выберите удобную дату*" required>
+            <button class="entry__btn-submit">
+              Записаться
+            </button>
+          </form>
+        </div>
+        <button class="entry__btn-close" type="button"></button>
+      </div>
+
+    </section>
+
     <section class="cookie cookie_active">
       <p class="cookie__paragraph">
         Продолжая использовать наш сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных,
@@ -563,6 +588,13 @@
 
   <script src="../js/nav.js"></script>
   <script src="../js/cookie.js"></script>
+
+  <script src="../js/bootstrap_datetimepicker/js/jquery-3.2.1.min.js"></script>
+  <script src="../js/bootstrap_datetimepicker/js/moment-with-locales.min.js"></script>
+  <script src="../js/bootstrap_datetimepicker/js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap_datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+
+  <script src="../js/entry.js"></script>
 </body>
 
 </html>

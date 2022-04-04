@@ -1,0 +1,8 @@
+.entry__container {
+  width: 662px;
+  height: 393px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 30px;
+  position: relative;
+}
