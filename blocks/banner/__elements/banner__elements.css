@@ -1,3 +1,5 @@
 .banner__elements {
   display: flex;
+  position: relative;
+  overflow: hidden;
 }

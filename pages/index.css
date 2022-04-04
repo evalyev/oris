@@ -33,6 +33,8 @@
 @import url(../blocks/banner/__controls/banner__controls.css);
 @import url(../blocks/banner/__control/banner__control.css);
 @import url(../blocks/banner/__control/_active/banner__control_active.css);
+@import url(../blocks/banner/__btn-prev/banner__btn-prev.css);
+@import url(../blocks/banner/__btn-next/banner__btn-next.css);
 
 @import url(../blocks/utp/utp.css);
 @import url(../blocks/utp/__element/utp__element.css);
