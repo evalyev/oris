@@ -1,0 +1,6 @@
+.banner__controls-cont {
+  width: 47px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
