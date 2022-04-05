@@ -1,0 +1,25 @@
+.medosm__more {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 33px;
+  margin-bottom: 40px;
+  background-color: #7CABFF;
+  border-radius: 7px;
+  width: 174px;
+  height: 31px;
+}
+
+.medosm__more:hover {
+  cursor: pointer;
+  background-color: #FFDA87;
+  color: #A17000;
+}

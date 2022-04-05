@@ -1,0 +1,5 @@
+.medosm {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 72px calc((100% - 1050px) / 2) 0;
+}
