@@ -3,7 +3,7 @@
   box-sizing: border-box;
   padding: 0 calc((100% - 1000px) / 2);
   height: 61px;
-  background-color: #FFDA87;
+  background-color: #DCE9FF;
   display: flex;
   justify-content: space-between;
   align-items: center;
