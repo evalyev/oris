@@ -3,12 +3,14 @@
   border: none;
   font-weight: 500;
   font-size: 11px;
-  background-color: #FFDA87;
+  background-color: #7CABFF;
   border-radius: 8px;
   padding: 9px 7px;
-  color: #A17000;
+  color: #fff;
 }
 
 .header__btn-entry:hover {
   cursor: pointer;
+  background-color: #FFDA87;
+  color: #A17000;
 }
