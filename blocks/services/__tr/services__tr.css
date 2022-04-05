@@ -1,0 +1,11 @@
+.services__tr {
+  height: 26px;
+}
+
+.services__tr:first-child .services__td {
+  padding-top: 9px;
+}
+
+.services__tr:last-child .services__td {
+  padding-bottom: 21px;
+}

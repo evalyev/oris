@@ -1,0 +1,19 @@
+.services__td {
+  height: 26px;
+  padding-bottom: 7px;
+  box-sizing: content-box;
+}
+
+.services__td:first-child {
+  padding-left: 13px;
+  width: 32px;
+}
+
+.services__td:nth-child(2) {
+  width: 440px;
+  padding-right: 25px;
+}
+
+.services__td:nth-child(3) {
+  padding-right: 13px;
+}

@@ -1,0 +1,8 @@
+.services__rectangle {
+  width: 15px;
+  height: 5px;
+  background: #7CABFF;
+  border-radius: 5px;
+  display: block;
+  margin-right: 17px;
+}

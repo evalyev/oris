@@ -1,0 +1,23 @@
+.services__title {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #7CABFF;
+  width: 100%;
+  height: 46px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding-left: 36px;
+  background-image: url(../../../images/services__strelka.svg);
+  background-repeat: no-repeat;
+  background-position: 6px center;
+}
+
+.services__title:hover {
+  cursor: pointer;
+}
