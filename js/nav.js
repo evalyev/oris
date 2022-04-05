@@ -28,12 +28,14 @@ function nav() {
           services.classList.remove('header__services_active');
           // document.removeEventListener('click', mouseOut);
           services.removeEventListener('mouseleave', mouseOut);
+          btnServices.removeEventListener('mouseleave', mouseOut);
         }
 
       }
       services.classList.add('header__services_active');
       // document.addEventListener('click', mouseOut)
       services.addEventListener('mouseleave', mouseOut)
+      btnServices.addEventListener('mouseleave', mouseOut)
     })
   }
 
