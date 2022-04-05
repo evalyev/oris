@@ -1,0 +1,14 @@
+.skidki__element {
+  display: flex;
+  width: 491px;
+  height: 197px;
+  background-color: #EBF2FF;
+  border-radius: 24px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.skidki__element:nth-child(2n) {
+  margin-right: 0;
+}

@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap-datetimepicker.min.css" />
 
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./skidki.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Главная</title>
+  <title>Скидки и акции</title>
 </head>
 
 <body>
   <div class="page">
     <header class="header">
       <section class="header__top">
-        <a class="page__link" href="#">
+        <a class="page__link" href="./index.html">
           <img class="header__logo" src="../images/logo_new.svg" alt="Лого">
         </a>
 
@@ -106,11 +106,11 @@
           </ul>
         </div>
 
-        <a class="header__nav-link" href="./skidki.html">
+        <a class="header__nav-link" href="#">
           Скидки и акции
         </a>
 
-        <a class="header__nav-link" href="./medoscmotri.html">
+        <a class="header__nav-link" href="#">
           Медосмотры
         </a>
 
@@ -223,230 +223,124 @@
     </header>
 
     <main class="main">
-      <section class="banner">
-        <div class="banner__elements">
-          <a class="banner__element" href="#">
-            <img class="banner__img" src="../images/banner__1.jpg" style="object-fit: contain; object-position: right;"
-              alt="Баннер">
-          </a>
-
-          <a class="banner__element" href="#">
-            <h2 class="banner__title">
+      <section class="info">
+        <div class="info__banner">
+          <div class="info__banner-desc">
+            <h2 class="info__banner-title">
               КТ
             </h2>
-            <p class="banner__subtitle">
-              Это медицинское рентгенологическое исследование позволяющее получить рентгеновское изображение
-              внутренних
+            <p class="info__banner-subtitle">
+              Это медицинское рентгенологическое исследование позволяющее получить рентгеновское изображение внутренних
               органов.
             </p>
-            <img class="banner__img" src="../images/banner__4.jpg" alt="Баннер" style="object-fit: cover;">
-          </a>
+          </div>
 
-          <a class="banner__element" href="#">
-            <img class="banner__img" src="../images/banner__3.jpg" style="object-fit: contain; object-position: left;"
-              alt="Баннер">
-          </a>
+          <img class="info__banner-img" src="../images/info__1.jpg" alt="Баннер">
         </div>
-        <button class="banner__btn-prev" type="button">
-          <img src="../images/banner__arrow-left.svg">
-        </button>
-        <button class="banner__btn-next" type="button">
-          <img src="../images/banner__arrow-left.svg">
-        </button>
 
-        <div class="banner__controls-cont">
-          <ul class="banner__controls">
-            <li class="banner__control"></li>
-            <li class="banner__control banner__control_active"></li>
-            <li class="banner__control"></li>
-          </ul>
-        </div>
+        <h1 class="info__title">
+          Скидки и акции
+        </h1>
       </section>
 
-      <section class="utp">
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__doctor.svg" alt="Иконка доктора">
+      <section class="skidki">
+        <article class="skidki__element">
+          <div class="skidki__img-cont">
+            <h3 class="skidki__img-desc">
+              Chek-up
+            </h3>
+            <img class="skidki__img" src="../images/skidki__1.jpg" alt="Фото скидки">
           </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Наши врачи
+          <div class="skidki__info">
+            <h2 class="skidki__title">
+              Chek-up стандарт
             </h2>
-            <p class="utp__info-subtitle">
-              Здесь вы сможете посмотреть информацию о наших врачах
-            </p>
+            <ol class="skidki__list">
+              <li class="skidki__list-item">
+                  Первичная консультация терапевта и повторная консультация терапевта по результатам исследований с
+                  выдачей заключения;
+              </li>
+
+              <li class="skidki__list-item">
+                  Общий анализ крови с лейкоцитарной формулой;
+              </li>
+
+              <li class="skidki__list-item">
+                  СОЭ;
+              </li>
+
+              <li class="skidki__list-item">
+                  Hbs-антиген, antiHCV, ВИЧ;
+              </li>
+
+              <li class="skidki__list-item">
+                  ...
+              </li>
+            </ol>
+
+            <div class="skidki__prices">
+              <span class="skidki__price-old">
+                19 646
+              </span>
+              <span class="skidki__price-new">
+                9 850
+              </span>
+            </div>
           </div>
         </article>
 
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__techno.svg" alt="Иконка технологий">
+        <article class="skidki__element">
+          <div class="skidki__img-cont">
+            <img class="skidki__img" src="../images/skidki__2.jpg" alt="Фото скидки">
+            <h3 class="skidki__img-desc">
+              Женское здоровье
+            </h3>
           </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Технологии
+          <div class="skidki__info">
+            <h2 class="skidki__title">
+              Женское здоровье стандарт
             </h2>
-            <p class="utp__info-subtitle">
-              Мы используем новейшие технологии в медицинской сфере
-            </p>
+            <ol class="skidki__list">
+              <li class="skidki__list-item">
+                Первичная консультация гинеколога и повторная консультация гинеколога по результатам исследований с
+                выдачей заключения;
+              </li>
+
+              <li class="skidki__list-item">
+                  УЗИ молочных желез/маммография;
+              </li>
+
+              <li class="skidki__list-item">
+                  УЗИ органов малого таза;
+              </li>
+
+              <li class="skidki__list-item">
+                  Расширенная видеокольпоскопия;
+              </li>
+
+              <li class="skidki__list-item">
+                  ...
+              </li>
+            </ol>
+
+            <div class="skidki__prices">
+              <span class="skidki__price-old">
+                10 175
+              </span>
+              <span class="skidki__price-new">
+                5 100
+              </span>
+            </div>
           </div>
         </article>
 
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__cert.svg" alt="Иконка сертификата">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Сертификация
-            </h2>
-            <p class="utp__info-subtitle">
-              В этом разделе хранится необходимая документация и сертификаты врачей
-            </p>
-          </div>
-        </article>
-
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__safe.svg" alt="Иконка защиты">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Гарантии и безопасность
-            </h2>
-            <p class="utp__info-subtitle">
-              Мы используем новейшие технологии в медицинской сфере
-            </p>
-          </div>
-        </article>
+        <article class="skidki__element"></article>
+        <article class="skidki__element"></article>
+        <article class="skidki__element"></article>
+        <article class="skidki__element"></article>
+        <article class="skidki__element"></article>
+        <article class="skidki__element"></article>
       </section>
-
-      <section class="doctors">
-        <article class="doctors__element">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__1.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Куриленко Валерия Викторовна
-            </h2>
-            <p class="doctors__subtitle">
-              Кардиолог-специалист
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  15
-                </span>
-                <span class="doctors__numbers">
-                  8
-                </span>
-                <span class="doctors__numbers">
-                  189
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-        <article class="doctors__element doctors__element_active">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__2.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Владенко Виктор Степанович
-            </h2>
-            <p class="doctors__subtitle">
-              Хирург высшей категории
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  12
-                </span>
-                <span class="doctors__numbers">
-                  4
-                </span>
-                <span class="doctors__numbers">
-                  139
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-        <article class="doctors__element">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__3.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Ляшенко Анастасия Юрьевна
-            </h2>
-            <p class="doctors__subtitle">
-              Дерматолог высшей категории
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  8
-                </span>
-                <span class="doctors__numbers">
-                  2
-                </span>
-                <span class="doctors__numbers">
-                  110
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-      </section>
-
 
     </main>
 
@@ -630,9 +524,8 @@
   <script src="../js/bootstrap_datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 
   <script src="../js/entry.js"></script>
-  <script src="../js/doctors.js"></script>
-
-  <script src="../js/banner.js"></script>
+  <script src="../js/services.js"></script>
+  <script src="../js/medosm.js"></script>
 
 </body>
 

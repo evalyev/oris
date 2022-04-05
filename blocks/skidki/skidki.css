@@ -1,0 +1,7 @@
+.skidki {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 70px calc((100% - 1000px) / 2) 168px;
+  display: flex;
+  flex-wrap: wrap;
+}

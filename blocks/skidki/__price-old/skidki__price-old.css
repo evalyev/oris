@@ -1,0 +1,19 @@
+.skidki__price-old {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: #FFFFFF;
+  width: 86px;
+  height: 29px;
+  background-image: url(../../../images/price__old.svg);
+  background-repeat: no-repeat;
+  background-size: 86px;
+  position: relative;
+  padding-left: 15px;
+  left: 25px;
+}

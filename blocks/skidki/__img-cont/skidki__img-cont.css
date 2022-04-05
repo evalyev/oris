@@ -1,0 +1,8 @@
+.skidki__img-cont {
+  position: relative;
+  width: 150px;
+  height: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

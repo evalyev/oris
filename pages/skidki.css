@@ -1,0 +1,87 @@
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__link/page__link.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__two-column/header__two-column.css);
+@import url(../blocks/header/__ico/header__ico.css);
+@import url(../blocks/header/__info/header__info.css);
+@import url(../blocks/header/__info-title/header__info-title.css);
+@import url(../blocks/header/__info-subtitle/header__info-subtitle.css);
+@import url(../blocks/header/__info-tel/header__info-tel.css);
+@import url(../blocks/header/__btn-entry/header__btn-entry.css);
+@import url(../blocks/header/__top/header__top.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__nav-menu/header__nav-menu.css);
+@import url(../blocks/header/__nav-ico/header__nav-ico.css);
+@import url(../blocks/header/__nav-menu-text/header__nav-menu-text.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
+@import url(../blocks/header/__services/header__services.css);
+@import url(../blocks/header/__services/_active/header__services_active.css);
+@import url(../blocks/header/__service-link/header__service-link.css);
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/__banner/info__banner.css);
+@import url(../blocks/info/__banner-desc/info__banner-desc.css);
+@import url(../blocks/info/__banner-title/info__banner-title.css);
+@import url(../blocks/info/__banner-subtitle/info__banner-subtitle.css);
+@import url(../blocks/info/__banner-img/info__banner-img.css);
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+
+@import url(../blocks/skidki/skidki.css);
+@import url(../blocks/skidki/__element/skidki__element.css);
+@import url(../blocks/skidki/__img-cont/skidki__img-cont.css);
+@import url(../blocks/skidki/__img/skidki__img.css);
+@import url(../blocks/skidki/__img-desc/skidki__img-desc.css);
+@import url(../blocks/skidki/__info/skidki__info.css);
+@import url(../blocks/skidki/__title/skidki__title.css);
+@import url(../blocks/skidki/__list/skidki__list.css);
+@import url(../blocks/skidki/__prices/skidki__prices.css);
+@import url(../blocks/skidki/__price-old/skidki__price-old.css);
+@import url(../blocks/skidki/__price-new/skidki__price-new.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column/_type/footer__column_type_space-between.css);
+@import url(../blocks/footer/__logo-cont/footer__logo-cont.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__two-column/footer__two-column.css);
+@import url(../blocks/footer/__info-links/footer__info-links.css);
+@import url(../blocks/footer/__info-link/footer__info-link.css);
+@import url(../blocks/footer/__ico/footer__ico.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__title/_type/footer__title_type_right.css);
+@import url(../blocks/footer/__two-column/_type/footer__two-column_type_contact.css);
+@import url(../blocks/footer/__info-link/_type/footer__info-link_type_contact.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
+@import url(../blocks/footer/__soc-nets/footer__soc-nets.css);
+@import url(../blocks/footer/__soc-nets-link/footer__soc-nets-link.css);
+@import url(../blocks/footer/__soc-nets-ico/footer__soc-nets-ico.css);
+@import url(../blocks/footer/__dev-copy/footer__dev-copy.css);
+
+@import url(../blocks/entry/entry.css);
+@import url(../blocks/entry/_active/entry_active.css);
+@import url(../blocks/entry/__container/entry__container.css);
+@import url(../blocks/entry/__img/entry__img.css);
+@import url(../blocks/entry/__info/entry__info.css);
+@import url(../blocks/entry/__title/entry__title.css);
+@import url(../blocks/entry/__form/entry__form.css);
+@import url(../blocks/entry/__input-text/entry__input-text.css);
+@import url(../blocks/entry/__input-date/entry__input-date.css);
+@import url(../blocks/entry/__btn-submit/entry__btn-submit.css);
+@import url(../blocks/entry/__btn-close/entry__btn-close.css);
+
+@import url(../blocks/cookie/cookie.css);
+@import url(../blocks/cookie/_active/cookie_active.css);
+@import url(../blocks/cookie/__paragraph/cookie__paragraph.css);
+@import url(../blocks/cookie/__btn-submit/cookie__btn-submit.css);

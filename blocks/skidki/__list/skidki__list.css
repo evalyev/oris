@@ -1,0 +1,19 @@
+.skidki__list {
+  margin: 0;
+  width: calc(100% - 22px);
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  color: #7CABFF;
+  margin-top: 9px;
+}
+
+.skidki__list li {
+  margin-bottom: 5px;
+}
+
+.skidki__list li:last-child {
+  margin-bottom: 0;
+}
