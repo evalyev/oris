@@ -1,0 +1,14 @@
+.medknigi__price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: #7CABFF;
+  border-radius: 7px;
+  width: 112px;
+  height: 31px;
+}

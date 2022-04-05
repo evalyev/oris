@@ -1,0 +1,5 @@
+.medknigi {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 68px calc((100% - 830px) / 2) 86px;
+}
