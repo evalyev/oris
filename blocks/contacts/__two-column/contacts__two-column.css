@@ -1,0 +1,6 @@
+.contacts__two-column {
+  margin-top: 54px;
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+}

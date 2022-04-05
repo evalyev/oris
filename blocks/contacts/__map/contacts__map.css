@@ -1,0 +1,10 @@
+.contacts__map {
+  margin-top: 140px;
+  width: 100%;
+  height: 537px;
+  display: flex;
+  padding: 39px 37px 0 39px;
+  justify-content: flex-end;
+  background-image: url(../../../images/contacts__map.jpg);
+  background-repeat: no-repeat;
+}

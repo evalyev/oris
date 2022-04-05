@@ -1,0 +1,16 @@
+.contacts__map-transports {
+  width: 100%;
+  margin: 0;
+  padding: 28px 23px;
+  list-style-type: none;
+}
+
+.contacts__map-transports li:not(.contacts__bus) {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.contacts__map-transports li:not(.contacts__bus):last-child {
+  margin-bottom: 0;
+}

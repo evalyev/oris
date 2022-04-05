@@ -1,0 +1,6 @@
+.contacts__column {
+  display: flex;
+  flex-direction: column;
+  width: 245px;
+  align-items: center;
+}

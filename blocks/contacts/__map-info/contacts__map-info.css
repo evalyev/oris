@@ -1,0 +1,9 @@
+.contacts__map-info {
+  width: 308px;
+  height: 459px;
+  background-color: #DCE9FF;
+  border: 2px solid #7CABFF;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
