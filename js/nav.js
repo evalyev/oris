@@ -24,14 +24,16 @@ function nav() {
       const services = document.querySelector('.header__services');
 
       function mouseOut(evt) {
-        if (!(evt.target.closest('.header__services') || evt.target.closest('.header__nav-link_type_services'))) {
+        if (!(evt.relatedTarget.closest('.header__services') || evt.relatedTarget.closest('.header__nav-link_type_services'))) {
           services.classList.remove('header__services_active');
-          document.removeEventListener('click', mouseOut);
+          // document.removeEventListener('click', mouseOut);
+          services.removeEventListener('mouseleave', mouseOut);
         }
 
       }
       services.classList.add('header__services_active');
-      document.addEventListener('click', mouseOut)
+      // document.addEventListener('click', mouseOut)
+      services.addEventListener('mouseleave', mouseOut)
     })
   }
 
