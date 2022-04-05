@@ -1,0 +1,24 @@
+.diagn__link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  width: 140px;
+  height: 30px;
+  background-color: #7CABFF;
+  border-radius: 8px;
+}
+
+.diagn__link:hover {
+  cursor: pointer;
+  background-color: #FFDA87;
+  color: #A17000;
+}

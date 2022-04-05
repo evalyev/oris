@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   min-width: max-content;
+  position: relative;
 }
 
 .header__nav-link:hover {

@@ -21,10 +21,31 @@ function nav() {
   function services() {
     const btnServices = document.querySelector('.header__nav-link_type_services');
     btnServices.addEventListener('mouseover', () => {
-      const services = document.querySelector('.header__services');
+      const services = document.querySelector('.header__services_type_services');
 
       function mouseOut(evt) {
-        if (!(evt.relatedTarget.closest('.header__services') || evt.relatedTarget.closest('.header__nav-link_type_services'))) {
+        if (!(evt.relatedTarget.closest('.header__services_type_services') || evt.relatedTarget.closest('.header__nav-link_type_services'))) {
+          services.classList.remove('header__services_active');
+          // document.removeEventListener('click', mouseOut);
+          services.removeEventListener('mouseleave', mouseOut);
+          btnServices.removeEventListener('mouseleave', mouseOut);
+        }
+
+      }
+      services.classList.add('header__services_active');
+      // document.addEventListener('click', mouseOut)
+      services.addEventListener('mouseleave', mouseOut)
+      btnServices.addEventListener('mouseleave', mouseOut)
+    })
+  }
+
+  function diagnostika() {
+    const btnServices = document.querySelector('.header__nav-link_type_diagnostika');
+    btnServices.addEventListener('mouseover', () => {
+      const services = document.querySelector('.header__services_type_diagnostika');
+
+      function mouseOut(evt) {
+        if (!(evt.relatedTarget.closest('.header__services_type_diagnostika') || evt.relatedTarget.closest('.header__nav-link_type_services'))) {
           services.classList.remove('header__services_active');
           // document.removeEventListener('click', mouseOut);
           services.removeEventListener('mouseleave', mouseOut);
@@ -41,6 +62,7 @@ function nav() {
 
   navPaddings();
   services();
+  diagnostika();
 }
 
 nav();

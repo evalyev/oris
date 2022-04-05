@@ -1,0 +1,7 @@
+.diagn__img {
+  width: 228px;
+  height: 228px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}

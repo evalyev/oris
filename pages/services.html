@@ -68,7 +68,7 @@
       </section>
 
       <nav class="header__nav">
-        <a class="header__nav-link header__nav-link_type_services" href="#">
+        <a class="header__nav-link header__nav-link_type_services" href="./services.html">
           <div class="header__nav-ico"></div>
           <span class="header__nav-menu-text">Услуги</span>
         </a>
@@ -81,9 +81,30 @@
           Мед книжки
         </a>
 
-        <a class="header__nav-link" href="#">
-          Диагностика
-        </a>
+        <div style="position: relative;">
+          <a class="header__nav-link header__nav-link_type_diagnostika" href="./diagnostika.html">
+            Диагностика
+          </a>
+          <ul class="header__services header__services_type_diagnostika">
+            <li>
+              <a class="header__service-link" href="./diagnostika.html?#kt">
+                Компьютерная томография
+              </a>
+            </li>
+
+            <li>
+              <a class="header__service-link" href="./diagnostika.html?#uzi">
+                Ультразвуковое исследование (УЗИ)
+              </a>
+            </li>
+
+            <li>
+              <a class="header__service-link" href="./diagnostika.html?#rentgen">
+                Рентген
+              </a>
+            </li>
+          </ul>
+        </div>
 
         <a class="header__nav-link" href="#">
           Скидки и акции
@@ -101,7 +122,7 @@
           Контакты
         </a>
 
-        <ul class="header__services">
+        <ul class="header__services header__services_type_services">
           <li>
             <a class="header__service-link" href="./services.html?#consult">
               Консультация врача

@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap.min.css" />
   <link rel="stylesheet" href="../js/bootstrap_datetimepicker/css/bootstrap-datetimepicker.min.css" />
 
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./diagnostika.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Главная</title>
+  <title>Услуги</title>
 </head>
 
 <body>
   <div class="page">
     <header class="header">
       <section class="header__top">
-        <a class="page__link" href="#">
+        <a class="page__link" href="./index.html">
           <img class="header__logo" src="../images/logo_new.svg" alt="Лого">
         </a>
 
@@ -223,230 +223,110 @@
     </header>
 
     <main class="main">
-      <section class="banner">
-        <div class="banner__elements">
-          <a class="banner__element" href="#">
-            <img class="banner__img" src="../images/banner__1.jpg" style="object-fit: contain; object-position: right;"
-              alt="Баннер">
-          </a>
-
-          <a class="banner__element" href="#">
-            <h2 class="banner__title">
+      <section class="info">
+        <div class="info__banner">
+          <div class="info__banner-desc">
+            <h2 class="info__banner-title">
               КТ
             </h2>
-            <p class="banner__subtitle">
-              Это медицинское рентгенологическое исследование позволяющее получить рентгеновское изображение
-              внутренних
+            <p class="info__banner-subtitle">
+              Это медицинское рентгенологическое исследование позволяющее получить рентгеновское изображение внутренних
               органов.
             </p>
-            <img class="banner__img" src="../images/banner__4.jpg" alt="Баннер" style="object-fit: cover;">
-          </a>
+          </div>
 
-          <a class="banner__element" href="#">
-            <img class="banner__img" src="../images/banner__3.jpg" style="object-fit: contain; object-position: left;"
-              alt="Баннер">
-          </a>
+          <img class="info__banner-img" src="../images/info__1.jpg" alt="Баннер">
         </div>
-        <button class="banner__btn-prev" type="button">
-          <img src="../images/banner__arrow-left.svg">
-        </button>
-        <button class="banner__btn-next" type="button">
-          <img src="../images/banner__arrow-left.svg">
-        </button>
 
-        <div class="banner__controls-cont">
-          <ul class="banner__controls">
-            <li class="banner__control"></li>
-            <li class="banner__control banner__control_active"></li>
-            <li class="banner__control"></li>
-          </ul>
-        </div>
+        <h1 class="info__title">
+          Диагностика
+        </h1>
       </section>
 
-      <section class="utp">
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__doctor.svg" alt="Иконка доктора">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Наши врачи
+      <section class="diagn">
+        <article class="diagn__element" id="kt">
+          <img class="diagn__img" src="../images/diagn__kt.jpg" alt="Фото КТ">
+          <div class="diagn__info">
+            <h2 class="diagn__title">
+              Компьютерная томография
             </h2>
-            <p class="utp__info-subtitle">
-              Здесь вы сможете посмотреть информацию о наших врачах
+            <p class="diagn__paragraph">
+              Компьютерная томография — это метод диагностики, основанный на применении рентгеновских лучей.
+              Одним из принципиальных отличий КТ от классических рентгеновских исследований является возможность
+              послойного сканирования тканей и органов. При этом доктор получает большое количество срезов органа. Кроме
+              того, современные аппараты для выполнения КТ оснащены программами, позволяющими создавать трёхмерные (3D)
+              модели исследуемого органа.
+            </p>
+            <p class="diagn__paragraph">
+              На изображениях наиболее хорошо видны рентгенопозитивные органы (например, костные структуры).
+              В определённых случаях, чтобы получить чёткую картину (например, при исследовании сосудов или внутренних
+              органов), используется специальное контрастное вещество.
+            </p>
+            <p class="diagn__paragraph">
+              КТ позволяет выявлять многие хирургические и терапевтические патологии, прогнозировать дальнейшее течение
+              заболевания, помогает врачу составить оптимальный план лечения, а также оценить эффективность проведённого
+              лечения.
             </p>
           </div>
+          <a class="diagn__link" href="./services.html?#kt">
+            Посмотреть стоимость
+          </a>
         </article>
 
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__techno.svg" alt="Иконка технологий">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Технологии
+        <article class="diagn__element" id="uzi">
+          <img class="diagn__img" src="../images/diagn__uzi.jpg" alt="Фото УЗИ">
+          <div class="diagn__info">
+            <h2 class="diagn__title">
+              УЗИ
             </h2>
-            <p class="utp__info-subtitle">
-              Мы используем новейшие технологии в медицинской сфере
+            <p class="diagn__paragraph">
+              В клиниках ОРИС доступны УЗ-исследования печени, желчного пузыря, желчных протоков, почек, мочевого
+              пузыря, мочеточников, поджелудочной и щитовидной железы, сердца и сосудов.
+            </p>
+            <p class="diagn__paragraph">
+              УЗИ можно проводить даже во время беременности, потому что ультразвук (в отличие, например, от
+              рентгенографии или КТ) не создаёт лучевой и химической нагрузки на организм пациента.
+            </p>
+            <p class="diagn__paragraph">
+              Ультразвуковое исследование помогает обнаружить скрытые воспаления, опухоли, камни, сосудистые аномалии,
+              инородные тела, новообразования, и скопления жидкости.
+            </p>
+            <p class="diagn__paragraph">
+              Кроме того, ультразвук позволяет получить объёмные изображения и исследовать некоторые физиологические
+              процессы в реальном времени: например, скорость кровотока, функцию сердечных клапанов или шевеление плода
+              в утробе матери.
             </p>
           </div>
+          <a class="diagn__link" href="./services.html?#uzi">
+            Посмотреть стоимость
+          </a>
         </article>
 
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__cert.svg" alt="Иконка сертификата">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Сертификация
+        <article class="diagn__element" id="rentgen">
+          <img class="diagn__img" src="../images/diagn__rentgen.jpg" alt="Фото Рентгенf">
+          <div class="diagn__info">
+            <h2 class="diagn__title">
+              Рентген
             </h2>
-            <p class="utp__info-subtitle">
-              В этом разделе хранится необходимая документация и сертификаты врачей
+            <p class="diagn__paragraph">
+              Медицинский центр ОРИС предлагает широкий спектр рентгенологических услуг, включая рентгенографию костей
+              черепа, шейного, грудного и поясничного отделов позвоночника, мелких и крупных суставов, кистей и стоп,
+              органов грудной клетки.
+            </p>
+            <p class="diagn__paragraph">
+              В спектр услуг рентгенологического центра входит маммография: исследование молочных желёз, которое
+              позволяет диагностировать онкологические заболевания, мастопатию, лактостаз и другие нарушения.
+            </p>
+            <p class="diagn__paragraph">
+              Для более точного определения местоположения очага патологий и её природы снимки делаются в двух и более
+              проекциях. По желанию пациента снимки могут быть записаны на USB-носитель.
             </p>
           </div>
-        </article>
-
-        <article class="utp__element">
-          <div class="utp__img-cont">
-            <img class="utp__logo" src="../images/utp__safe.svg" alt="Иконка защиты">
-          </div>
-          <div class="utp__info">
-            <h2 class="utp__info-title">
-              Гарантии и безопасность
-            </h2>
-            <p class="utp__info-subtitle">
-              Мы используем новейшие технологии в медицинской сфере
-            </p>
-          </div>
+          <a class="diagn__link" href="./services.html?#rentgen">
+            Посмотреть стоимость
+          </a>
         </article>
       </section>
-
-      <section class="doctors">
-        <article class="doctors__element">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__1.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Куриленко Валерия Викторовна
-            </h2>
-            <p class="doctors__subtitle">
-              Кардиолог-специалист
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  15
-                </span>
-                <span class="doctors__numbers">
-                  8
-                </span>
-                <span class="doctors__numbers">
-                  189
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-        <article class="doctors__element doctors__element_active">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__2.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Владенко Виктор Степанович
-            </h2>
-            <p class="doctors__subtitle">
-              Хирург высшей категории
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  12
-                </span>
-                <span class="doctors__numbers">
-                  4
-                </span>
-                <span class="doctors__numbers">
-                  139
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-        <article class="doctors__element">
-          <div class="doctors__img-container">
-            <img class="doctors__img" src="../images/doctors__3.png" alt="фото врача">
-          </div>
-          <div class="doctors__info">
-            <h2 class="doctors__title">
-              Ляшенко Анастасия Юрьевна
-            </h2>
-            <p class="doctors__subtitle">
-              Дерматолог высшей категории
-            </p>
-            <div class="doctors__two-column">
-              <div class="doctors__column">
-                <span class="doctors__numbers">
-                  8
-                </span>
-                <span class="doctors__numbers">
-                  2
-                </span>
-                <span class="doctors__numbers">
-                  110
-                </span>
-              </div>
-
-              <div class="doctors__column">
-                <span class="doctors__numbers-contin">
-                  лет стажа
-                </span>
-                <span class="doctors__numbers-contin">
-                  научных публикаций
-                </span>
-                <span class="doctors__numbers-contin">
-                  высших отзывов
-                </span>
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-      </section>
-
 
     </main>
 
@@ -630,9 +510,7 @@
   <script src="../js/bootstrap_datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
 
   <script src="../js/entry.js"></script>
-  <script src="../js/doctors.js"></script>
-
-  <script src="../js/banner.js"></script>
+  <script src="../js/services.js"></script>
 
 </body>
 
