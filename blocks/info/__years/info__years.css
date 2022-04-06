@@ -1,0 +1,15 @@
+.info__years {
+  width: 202px;
+  height: 202px;
+  margin-top: 87px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #7CABFF;
+  border-radius: 50%;
+}

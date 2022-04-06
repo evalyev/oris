@@ -1,0 +1,7 @@
+.clinika {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 87px calc((100% - 1000px) / 2) 423px;
+  display: flex;
+  flex-direction: column;
+}

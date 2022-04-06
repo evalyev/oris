@@ -1,0 +1,8 @@
+.clinika__cert-img {
+  width: 110px;
+  height: 154px;
+}
+
+.clinika__cert-img:hover {
+  cursor: pointer;
+}

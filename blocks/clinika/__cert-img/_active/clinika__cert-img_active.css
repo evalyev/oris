@@ -1,0 +1,9 @@
+.clinika__cert-img_active {
+  position: absolute;
+  width: 547px;
+  align-self: center;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: auto;
+}
