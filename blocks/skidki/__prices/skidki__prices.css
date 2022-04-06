@@ -3,3 +3,7 @@
   margin-right: 8px;
   display: flex;
 }
+
+.skidki__prices:hover {
+  cursor: pointer;
+}

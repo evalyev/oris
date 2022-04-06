@@ -17,3 +17,7 @@
   background-size: 86px;
   padding-right: 15px;
 }
+
+.skidki__prices:hover .skidki__price-new {
+  display: none;
+}

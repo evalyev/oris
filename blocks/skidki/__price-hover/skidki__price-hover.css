@@ -1,0 +1,18 @@
+.skidki__price-hover {
+  width: 147px;
+  height: 29px;
+  background-color: #FFDA87;
+  border-radius: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 13px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: #A17000;
+}
+
+.skidki__prices:hover .skidki__price-hover {
+  display: flex;
+}

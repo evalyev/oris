@@ -44,6 +44,7 @@
 @import url(../blocks/skidki/__prices/skidki__prices.css);
 @import url(../blocks/skidki/__price-old/skidki__price-old.css);
 @import url(../blocks/skidki/__price-new/skidki__price-new.css);
+@import url(../blocks/skidki/__price-hover/skidki__price-hover.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
