@@ -44,6 +44,7 @@
 @import url(../blocks/services/__tr/services__tr.css);
 @import url(../blocks/services/__td/services__td.css);
 @import url(../blocks/services/__list/_active/services__list_active.css);
+@import url(../blocks/services/__title/_active/services__title_active.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
